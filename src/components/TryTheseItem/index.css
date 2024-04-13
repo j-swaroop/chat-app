@@ -1,0 +1,35 @@
+.try-these-item-container{
+    background-color: rgb(223, 223, 223);
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 16px;
+    height: 80px;
+    padding-left: 15px;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.try-these-text-container{
+   width: 250px;
+   margin-left: 15px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.try-these-title{
+    color: #26272b;
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 15px;
+
+}
+.try-these-subtitle{
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #585962;
+    font-size: 16px;
+    margin-top: 3px;
+}

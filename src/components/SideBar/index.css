@@ -1,0 +1,178 @@
+.sidebar-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-right: 1px solid #d8d8d9;
+    min-height: 100vh;
+    padding-right: 15px;
+    
+}
+
+.sidebar-responsive{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    
+}
+.title-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.main-heading{
+    color: black;
+    font-family: 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar-icon{
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.create-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4e4e4;
+    background-color: #e8e8e8;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.create-icons{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.discover-container{
+    border: 1px solid #e4e4e4;
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-radius: 6px;
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding-left: 20px;
+}
+.discover-text{
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.chats-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.chats-text{
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 15px;
+    color: black;
+}
+.today{
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 14px;
+    color: gray;
+    margin-top: 15px;
+}
+.sidebar-footer{
+    border-top: 1px solid rgb(222, 221, 221);
+    /* margin-top: 50vh; */
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 10vh;
+    width: 200px;
+}
+.try-ai{
+    background-color: #efefef;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #d8d8d9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+.sidebar-profile{
+    font-family: 'Roboto', 'ui-sans-serif', system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+   
+}
+.side-bar-profile-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.sidebar-profile-name{
+    font-size: 14px;
+    color: black;
+    margin-left: 15px;
+}
+.sidebar-open-icon{
+    /* padding: 40px; */
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.link-item{
+    text-decoration: none;
+    color: black;
+}
+.unordered-list{
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+.profile-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile-intial{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+.profile-name{
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 14px;
+}

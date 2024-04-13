@@ -1,0 +1,61 @@
+.create-profile-container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.create-profile-responsive{
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.create-container-add-margin{
+    margin-left: 265px;
+    
+}
+.input-text-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.input-text-container{
+    width: 90%;
+    margin-bottom: 30px;
+}
+label{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
+.input-container-create{
+    width: 90%;
+    height: 50px;
+    border-radius: 12px;
+    padding-left: 15px;
+    background-color: transparent;
+    border: 1px solid rgb(173, 171, 171);
+    font-family: 'Roboto';
+}
+.character-count{
+   color: gray;
+   font-family: 'Roboto';
+   margin-top: 5px;
+   font-size: 14px;
+}
+.dotted{
+    text-decoration: dotted;
+}
